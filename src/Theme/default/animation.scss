@@ -1,0 +1,17 @@
+// slide in left
+#slide-in-left {
+    animation: slideInLeft 0.5s forwards;
+}
+@keyframes slideInLeft {
+    from { left: -100px };
+    to { left: 0; };
+}
+
+// slide out left
+#slide-out-left {
+    animation: slideOutLeft 0.5s forwards;
+}
+@keyframes slideOutLeft {
+    from { left: 0; };
+    to { left: -100px };
+}

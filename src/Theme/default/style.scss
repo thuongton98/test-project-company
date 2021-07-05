@@ -1,0 +1,14 @@
+
+@import 'font-awesome/css/font-awesome.min.css';
+
+@import "./variables.scss";
+// @import "./custom.scss";
+// @import "./extend.scss";
+
+body {
+    font-family: $app_font_family;
+    font-style: $app_font_style;
+}
+
+// @import "./animation.scss";
+// @import "./mobile.scss";
